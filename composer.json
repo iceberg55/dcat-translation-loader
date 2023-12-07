@@ -1,5 +1,5 @@
 {
-    "name": "mikha-dev/dcat-translation-loader",
+    "name": "mikha-dev/laravel-translation-loader",
     "description": "Store your language lines in the database, yaml or other sources",
     "keywords": [
         "spatie",
@@ -11,7 +11,7 @@
         "language",
         "i8n"
     ],
-    "homepage": "https://github.com/mikha-dev/dcat-translation-loader",
+    "homepage": "https://github.com/mikha-dev/laravel-translation-loader",
     "license": "MIT",
     "require": {
         "php": "^7.2|^8.1",

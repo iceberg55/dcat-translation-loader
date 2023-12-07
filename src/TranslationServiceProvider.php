@@ -45,9 +45,6 @@ class TranslationServiceProvider extends IlluminateTranslationServiceProvider
      */
     protected function registerLoader()
     {
-        if($this->app->runningInConsole())
-            return parent::registerLoader();
-
         $this->app->singleton('translation.loader', function ($app) {
             $class = config('translation-loader.translation_manager');
 
